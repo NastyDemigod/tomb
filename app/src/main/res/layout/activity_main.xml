@@ -19,93 +19,96 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editFName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:ems="10"
+                android:hint="Фамилия"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Имя"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editPatronymic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Отчество"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editDateBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Дата рождения"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editDateDeath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Дата смерти"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editNumPlot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Номер участка"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editNumBurial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Номер захоронения"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editCemetery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Кладбище"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button_Find"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:onClick="onClickFind"
+                android:text="Найти"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/button_Read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickRead"
+                android:text="Читать" />
+        </LinearLayout>
     </ScrollView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <EditText
-            android:id="@+id/editFName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
-            android:ems="10"
-            android:hint="Фамилия"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Имя"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editPatronymic"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Отчество"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editDateBirth"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Дата рождения"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editDateDeath"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Дата смерти"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editNumPlot"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Номер участка"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editNumBurial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Номер захоронения"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/editCemetery"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:ems="10"
-            android:hint="Кладбище"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/button_Find"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:onClick="onClickFind"
-            android:text="Найти" />
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
