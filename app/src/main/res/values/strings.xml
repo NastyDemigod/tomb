@@ -2,5 +2,5 @@
     <string name="app_name">tomb</string>
     <string name="google_maps_key">AIzaSyBWIOg6CwpZKHTDbQzDuDofNg6b8QjniKM</string>
     <string name="title_activity_maps">mMap</string>
-    <string name="api_req">http://172.16.52.134:3000/</string>
+    <string name="api_req">http://185.117.152.68:3999/defunct/6/</string>
 </resources>
